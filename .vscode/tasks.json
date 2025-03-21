@@ -12,17 +12,16 @@
                 "--ignore=node_modules",
                 "--ignore-vcs",
                 "--mode=two-way-resolved",
-                "server:${input:smallwebDir}",
+                "${input:user}@smallweb.live:smallweb",
                 "./smallweb",
             ],
         }
     ],
     "inputs": [
         {
-            "id": "smallwebDir",
+            "id": "user",
             "type": "promptString",
-            "default": "~/smallweb",
-            "description": "Enter the path to the smallweb directory on your server",
+            "description": "Enter your smallweb.live username",
         }
     ]
 }
