@@ -12,16 +12,9 @@
                 "--ignore=node_modules",
                 "--ignore-vcs",
                 "--mode=two-way-resolved",
-                "${input:user}@smallweb.live:smallweb",
+                "<username>@smallweb.live:smallweb",
                 "./smallweb",
             ],
-        }
-    ],
-    "inputs": [
-        {
-            "id": "user",
-            "type": "promptString",
-            "description": "Enter your smallweb.live username",
         }
     ]
 }
