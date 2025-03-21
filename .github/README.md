@@ -10,4 +10,4 @@
 1. (optional) Set the `SOPS_AGE_KEY` secret if you want to use `sops` to encrypt secrets
 1. Create a new codespace
 1. Run `ssh accounts@smallweb.live login` to associate the codespace ssh key with your account
-1. Run the `Create Sync` command to sync your smallweb dir to the codespace
+1. Run the `Create Mutagen Sync` command to sync your smallweb dir to the codespace
